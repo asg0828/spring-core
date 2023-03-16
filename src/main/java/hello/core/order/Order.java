@@ -1,4 +1,4 @@
-package com.example.core.order;
+package hello.core.order;
 
 public class Order {
     private Long memberId;

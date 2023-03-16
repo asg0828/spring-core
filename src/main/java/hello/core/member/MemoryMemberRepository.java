@@ -1,9 +1,9 @@
-package com.example.core.member;
+package hello.core.member;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class MeboryMemberRepository implements MemberRepository {
+public class MemoryMemberRepository implements MemberRepository {
     private static Map<Long, Member> store = new HashMap<>();
 
     @Override

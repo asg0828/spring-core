@@ -1,13 +1,11 @@
-package com.example.core.discount;
+package hello.core.discount;
 
-import com.example.core.member.Grade;
-import com.example.core.member.Member;
-import org.assertj.core.api.Assertions;
+import hello.core.member.Grade;
+import hello.core.member.Member;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 class RateDiscountPolicyTest {
     RateDiscountPolicy discountPolicy = new RateDiscountPolicy();
